@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>test.html</title>
+    <style>
+      body {
+        margin:0;
+      }
+      canvas {
+        border: 1px dotted grey;
+      }
+      input[type="text"]{
+        width:25px;
+      }
+      .canvas-container, .inputs {
+        display:inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="inputs">
+      <button id="addActor">add new actor</button>
+       <!-- add block is currently broken, e.g. collision fails sometimes
+       <br><br>
+        X:<input type="text" id="wall_x">
+        Y:<input type="text" id="wall_y">
+        <div id="wall_input_error" style="display:inline;"></div>
+        <br>
+        <button id="addBlock">add wall</button>
+	-->
+      </div>
+    <script src="test.js"></script>
+  </body>
+</html>
